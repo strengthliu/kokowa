@@ -1693,17 +1693,27 @@ pre code {
 .threeImgBox .content:hover {
   background: rgba(0, 0, 0, 0.5);
 }
+.talktoyourdoctorbg{
+  background-repeat: repeat-y;
+  margin-bottom: 30px;
+}
+.morequestion{
+  background-repeat: repeat-y;
+  margin-bottom: 30px;
+}
+
 .aboutBoxBg {
   background-repeat: repeat-y;
   margin-bottom: 30px;
 }
+
 .aboutBox section img {
   width: 100%;
 }
 .aboutBox {
   width: 100%;
   overflow: hidden;
-  margin: 40px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 .aboutBoxBg {
   background: url(../images/aboutbg.jpg) #F3F3F3 no-repeat center center;
@@ -1715,12 +1725,12 @@ pre code {
 .aboutBox {
   width: 100%;
   overflow: hidden;
-  margin: 70px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 .aboutBox .title {
   text-align: center;
   height: 45px;
-  background: url(../images/../images/../images/titlebg.jpg) no-repeat center bottom;
+
 }
 .aboutBox .title h5 {
   display: inline-block;
@@ -1729,7 +1739,7 @@ pre code {
   color: #333;
   font-size: 28px;
   line-height: 28px;
-  height: 45px;
+
   overflow: hidden;
   margin: 0;
 }
@@ -1762,6 +1772,24 @@ a.aboutMore:hover {
   padding: 8px 0px 0px 0px;
   font-family: 'Microsoft YaHei';
 }
+
+.talktoyourdoctorbg {
+  background: url(../images/talktoyourdoctor_bg.png) #F3F3F3 no-repeat center center;
+
+  margin-top: 30px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.morequestion {
+  background: url(../images/morequestion.png) #F3F3F3 no-repeat center center;
+
+  margin-top: 30px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
